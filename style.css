@@ -29,10 +29,13 @@ p{
 
 }
 .what-we-do{
-    transform:rotateY(180)
+   
 }
 .hidden-content{
     display: none;
+}
+.show-content{
+    display: block;
 }
 
 .container {

@@ -14,3 +14,5 @@ $(document).onclick(function() {
       $("hidden-content").toggle();
     });
   });
+
+  document.getElementById('p')
