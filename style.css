@@ -1,3 +1,5 @@
+font-family{ 
+    font: 'Montserrat', 'sans-serif';}
 .intro{
     background-image: url(Images/background/h_img.jpg);
     background-size: cover;
@@ -28,9 +30,12 @@ p{
     text-align: center;
 
 }
-.what-we-do{
-   
+.pic{
+    width: 300px;
+    margin: 20px;
 }
+
+
 .hidden-content{
     display: none;
 }
