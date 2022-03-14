@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +10,8 @@
 <link rel="stylesheet" href="style.css">
     <title>Delani Studio</title>
 </head>
-<body>
-    
- <div class="intro">
+<body>  
+<div class="intro">
      <img src="Images/logo.png" alt="logo">
     <h1>WELCOME <br><br><br> TO DELANI STUDIO</h1>
     <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
@@ -41,9 +39,9 @@
  <section>
     <section id="what_we_do">
         <h2>WHAT WE DO</h2>        
-            <div class="container-fluid portfolio">
-                <div class="row" id="we_do">
-                        <img src="Images/design_icon.png" id="des"> 
+                <div class="toggle" id="we_do">
+                    <div>
+                        <img src="Images/design_icon.png" id="des" class="image"> 
                         <h5>DESIGN</h5>
                         <p id="design-content" class="hidden-content">
                             Our design practice offers a full range of services including brand strategy, interaction
@@ -51,33 +49,37 @@
                             Throughout your project, our designers create and implement visual design and workflows,
                             solicit user feedback and work with you to make sure what gets built is what is needed.
                         </p>
-                        <img src="Images/dev_icon.png" id="dev"/>   
+                    </div>
+                    <div>
+                        <img src="Images/dev_icon.png" id="dev" class="image"/>   
                         <h5><strong>DEVELOPMENT</strong></h5>
                         <p id="dev-content" class="hidden-content">
                             All engineers are fluent in the latest enterprise, mobile and web development technologies.
                             They collaborate with your team to write, and improve code on a daily basis, using proven
                             practices such as test-driven development and pair programming.
                         </p>
-                        <img src="Images/product_icon.png" id="prod" />
+                    </div>
+                    <div>
+                        <img src="Images/product_icon.png" id="prod" class="image"/>
                         <h5><strong>PRODUCT MANAGEMENT</strong></h5>
                         <p id="product-content" class="hidden-content">
                             Planning and development is iterative. Because we are constantly coding and testing, the
                             products we build are always ready to go live.
                             This iterative process allows for changes as business requirements evolve.
                         </p>
-                </div>
-            </div>    
+                    </div>
+                </div>    
     </section>
     <h2>PORTFOLIO</h2>
     <div class="box">
-        <img src="Images/portfolio/work1.jpg"id="pic"/>
-        <img src="Images/portfolio/work2.jpg"id="pic"/>
-        <img src="Images/portfolio/work3.jpg"id="pic"/>
-        <img src="Images/portfolio/work4.jpg"id="pic"/>
-        <img src="Images/portfolio/work5.jpg"id="pic"/>
-        <img src="Images/portfolio/work6.jpg"id="pic"/>
-        <img src="Images/portfolio/work7.jpg"id="pic"/>
-        <img src="Images/portfolio/work8.jpg"id="pic"/>
+        <img src="Images/portfolio/work1.jpg"class="pic"/>
+        <img src="Images/portfolio/work2.jpg"class="pic"/>
+        <img src="Images/portfolio/work3.jpg"class="pic"/>
+        <img src="Images/portfolio/work4.jpg"class="pic"/>
+        <img src="Images/portfolio/work5.jpg"class="pic"/>
+        <img src="Images/portfolio/work6.jpg"class="pic"/>
+        <img src="Images/portfolio/work7.jpg"class="pic"/>
+        <img src="Images/portfolio/work8.jpg"class="pic"/>
     </div>
     </div>
     <div class="content">
@@ -112,7 +114,8 @@
             </div>
         </div>
     </div>
-<script src="main.js"></script>
+
 <script src="jquery-3.6.0.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

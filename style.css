@@ -30,7 +30,14 @@ p{
     text-align: center;
 
 }
+
+.box{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 .pic{
+    position: relative;
     width: 300px;
     margin: 20px;
 }
@@ -51,6 +58,12 @@ p{
     text-align: center;
     color: white;
 }
+.toggle{
+display: flex;
+justify-content: space-around;
+
+}
+
 label{
     color: rgb(255, 255, 255);
 }
@@ -59,14 +72,6 @@ label{
     display: flex;
     flex-direction: row;
     padding-bottom: 200px;
-}
-.box{
-    margin-left:10px;
-    margin-right:10px;
-}
-.id{
-    padding: 30px;
-    border: 50px;
 }
 .content{
     padding-top: 100px;
