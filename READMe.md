@@ -1,5 +1,4 @@
 # Delani Studio 
-## # Portfolio
 
 ##### By Kakusha Venecia
 ###  
